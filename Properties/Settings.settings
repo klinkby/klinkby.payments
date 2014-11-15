@@ -1,0 +1,33 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="Klinkby.Payments.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="Cardtypelock" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">dankort</Value>
+    </Setting>
+    <Setting Name="Currency" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">DKK</Value>
+    </Setting>
+    <Setting Name="Language" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">da</Value>
+    </Setting>
+    <Setting Name="Protocol" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">4</Value>
+    </Setting>
+    <Setting Name="TestMode" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">1</Value>
+    </Setting>
+    <Setting Name="AutoCapture" Type="System.String" Scope="Application">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="AutoFee" Type="System.String" Scope="Application">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="MsgType" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">authorize</Value>
+    </Setting>
+    <Setting Name="SplitPayment" Type="System.String" Scope="Application">
+      <Value Profile="(Default)" />
+    </Setting>
+  </Settings>
+</SettingsFile>
