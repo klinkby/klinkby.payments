@@ -2,18 +2,19 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2011/10/nuspec.xsd">
   <metadata>
     <id>Klinkby.Payments</id>
-    <version>1.0.1.0</version>
+    <version>1.0.1.1</version>
     <title>Klinkby.Payments</title>
     <authors>Mads Breusch Klinkby</authors>
     <summary>Client proxy for QuickPay payment gateway</summary>
     <description>Client proxy for QuickPay payment gateway</description>
     <copyright>MIT license</copyright>
+    <projectUrl>https://github.com/klinkby/klinkby.vcard</projectUrl>
     <licenseUrl>https://raw.githubusercontent.com/klinkby/klinkby.payments/master/license.txt</licenseUrl>
     <tags>klinkby payment gateway quickpay credit card</tags>
   </metadata>
   <files>
-    <file src="bin\release\klinkby.Payments.dll" target="lib\net452\klinkby.Payments.dll"/>
-    <file src="bin\release\klinkby.Payments.pdb" target="lib\net452\klinkby.Payments.pdb"/>
-    <file src="bin\release\klinkby.Payments.xml" target="lib\net452\klinkby.Payments.xml"/>
+    <file src="bin\release\klinkby.Payments.dll" target="lib\net40\klinkby.Payments.dll"/>
+    <file src="bin\release\klinkby.Payments.pdb" target="lib\net40\klinkby.Payments.pdb"/>
+    <file src="bin\release\klinkby.Payments.xml" target="lib\net40\klinkby.Payments.xml"/>
   </files>
 </package>
