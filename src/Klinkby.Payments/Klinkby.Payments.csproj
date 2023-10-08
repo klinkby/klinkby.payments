@@ -1,0 +1,45 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+    <PropertyGroup>
+        <TargetFramework>netstandard2.0</TargetFramework>
+        <LangVersion>10</LangVersion>
+        <Nullable>annotations</Nullable>
+        <AssemblyDescription>Client proxy for QuickPay payment gateway</AssemblyDescription>
+        <ProjectGuid>{C77A5E37-44F6-4771-8630-B2FD94B5CF82}</ProjectGuid>
+    </PropertyGroup>
+
+    <PropertyGroup>
+        <Version>2.0.0</Version>
+        <AssemblyTitle>Klinkby.OAuth2</AssemblyTitle>
+        <PackageId>Klinkby.Payments</PackageId>
+        <Authors>@klinkby</Authors>
+        <RepositoryUrl>https://github.com/klinkby/klinkby.payments</RepositoryUrl>
+        <PackageIcon>package-icon.png</PackageIcon>
+        <PackageTags>    klinkby payment gateway quickpay credit card</PackageTags>
+        <Description>Client proxy for QuickPay payment gateway</Description>
+    </PropertyGroup>
+
+    <PropertyGroup>
+        <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    </PropertyGroup>
+
+    <PropertyGroup>
+        <PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
+        <PackageReadmeFile>README.md</PackageReadmeFile>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <None Include="../../LICENSE.txt" Pack="true" PackagePath=""/>
+        <None Include="../../README.md" Pack="true" PackagePath=""/>
+        <None Include="../../package-icon.png" Pack="true" PackagePath=""/>
+    </ItemGroup>
+
+    <ItemGroup>
+        <PackageReference Include="System.ComponentModel.Annotations" Version="5.0.0"/>
+    </ItemGroup>
+
+    <PropertyGroup>
+        <!--
+        https://devblogs.microsoft.com/nuget/enable-repeatable-package-restores-using-a-lock-file/ -->
+        <RestorePackagesWithLockFile>true</RestorePackagesWithLockFile>
+    </PropertyGroup>
+</Project>
